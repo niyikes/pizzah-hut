@@ -57,6 +57,7 @@ main {
   position: absolute;
   top: 0;
   z-index: 5;
+    font-family: Comic Sans MS, cursive;
   width: 100%;
   color: white;
   display: grid;
@@ -68,12 +69,15 @@ header {
   grid-column: 2 / span 5;
   background: rgba(213, 0, 0, 0.93);
   padding: 32px;
+    font-family: Comic Sans MS, cursive;
+
   margin-bottom: 300px;
   font-size: 18px;
 }
 
 header h1 {
   font-size: 48px;
+    font-family: Comic Sans MS, cursive;
   margin-bottom: 10px;
   color: red;
 }
@@ -82,6 +86,7 @@ section {
   grid-column: 2 / 8;
   background: rgba(15, 15, 15, 0.93);
   padding: 28px;
+    font-family: Comic Sans MS, cursive;
   margin-bottom: 350px;
   font-size: 18px;
   line-height: 1.6;
@@ -90,6 +95,7 @@ section {
 section h2 {
   font-size: 32px;
   margin-bottom: 12px;
+    font-family: Comic Sans MS, cursive;
   color: red;
 }
 
