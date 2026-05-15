@@ -47,21 +47,26 @@ scene.add(pepperoni);
 
 
 // BROC
+
+//head
 const broc_group = new THREE.Group(); 
 const broc_head_geo = new THREE.ConeGeometry(5, 8, 8);
 const broc_mat = new THREE.MeshBasicMaterial({ map: broc_text });
 const broc_head = new THREE.Mesh(broc_head_geo, broc_mat);
-
+//stem
 const broc_stem_geo = new THREE.CylinderGeometry(1.5, 1.5, 4, 8);
 const broc_stem = new THREE.Mesh(broc_stem_geo, broc_mat);
-broc_stem.position.y = -5; // Put stem under the cone
+broc_stem.position.y = -5;
 
+//addition
 broc_group.add(broc_head);
 broc_group.add(broc_stem);
 broc_group.position.set(0, -18, 0);
 scene.add(broc_group);
 
-//mushroom
+//mushroom 
+//i gave up on mushroom
+
 /*
 const mush_geo = new THREE.SphereGeometry(4, 32, 32);
 const mush_mat = new THREE.MeshBasicMaterial({ map: mush_text });
