@@ -12,11 +12,11 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 
 
-const pizza_text= new THREE.TextureLoader().load('pizzah.jpg');
-const cheese_text= new THREE.TextureLoader().load('cheese.jpg');
-const pep_text= new THREE.TextureLoader().load('pepperoni.jpg');
-const broc_text= new THREE.TextureLoader().load('broccoli.jpg');
-const mush_text= new THREE.TextureLoader().load('mushroom.jpg');
+const base = import.meta.env.BASE_URL;
+const pizza_text = new THREE.TextureLoader().load(base + 'pizzah.jpg');
+const cheese_text = new THREE.TextureLoader().load(base + 'cheese.jpg');
+const pep_text = new THREE.TextureLoader().load(base + 'pepperoni.jpg');
+const broc_text = new THREE.TextureLoader().load(base + 'broccoli.jpg');
 
 
 //pizzah
